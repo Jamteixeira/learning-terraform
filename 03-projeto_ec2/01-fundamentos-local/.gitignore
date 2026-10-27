@@ -1,0 +1,23 @@
+
+# Arquivos de estado do Terraform (Contêm segredos e estado local)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Pasta de inicialização e plugins
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de variáveis com segredos locais
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de log do Terraform
+*.log
+
+# Arquivos temporários de texto do nosso lab
+boas_vindas.txt
